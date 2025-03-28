@@ -42,11 +42,11 @@ public class FilteringApples {
 
         List<Apple> redApples5 = filter(inventory, (Apple apple) -> Color.RED.equals(apple.getColor()));
 
-        inventory.sort(new Comparator<Apple>() {
-            public int compare(Apple a1, Apple a2) {
-                return a1.getWeight().compareTo(a2.getWeight());
-            }
-        });
+//        inventory.sort(new Comparator<Apple>() {
+//            public int compare(Apple a1, Apple a2) {
+//                return a1.getWeight().compareTo(a2.getWeight());
+//            }
+//        });
     }
 
     /**
